@@ -16,6 +16,7 @@ app.listen(process.env.PORT1 || 8000, () => {
     console.log('Listening on port 8000')
 });
 
+
 app.listen(process.env.PORT2 || 8100, () => {
     console.log('Listening on port 8100')
 });
